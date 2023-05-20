@@ -32,7 +32,7 @@
 }
 
 /* Display */
-#output {
+#output  {
     background: #fff;
     color: #000;
     font-size: 54px;
@@ -40,10 +40,18 @@
     text-align: right;
     font-weight: 500;
     height: 64px;
+    /* display: flex;
     margin: 16px;
-    padding: 4px;
+    padding: 4px; */
+    width: 300px;
+    margin-bottom: 16px;
     border: 1px solid blue;
     border-radius: 10px;
+}
+
+#display {
+    width: 200px;
+    margin: auto;
 }
 
 /* Buttons */
@@ -73,7 +81,7 @@
     transition: 0.5s ease-in-out;
 }
 
-#equal {
+#evaluate {
     background: #ffa500;
     color: #fff;
 }
